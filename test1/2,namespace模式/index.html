@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="module1.js"></script>
+    <script src="module2.js"></script>
+</head>
+<body>
+</body>
+<script>
+    module1.gsd1 = 'gsd6667'
+    module1.gsd11()
+    module2.gsd2 = 'gsd6669'
+    module2.gsd11()
+    module2.gsd11 = function () {
+        console.log('gsd999')
+    }
+    module2.gsd11()
+</script>
+</html>
